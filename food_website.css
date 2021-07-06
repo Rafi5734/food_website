@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+/*-------start section-1--------*/
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.first-heading {
+    width: 45%;
+    margin: 15rem;
+}
+.section-1-heading {
+    width: 70%;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.color-heading {
+    color: olivedrab;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.section-1-paragraph {
+    width: 70%;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+.button {
+    width: 20rem;
+    height: 5rem;
+    border-radius: 3rem;
+    border: none;
+    background-image: linear-gradient(to left, #58452d, #cfb20d);
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.section-1-img {
+    width: 45%;
+}
+.section-1-img img {
+    margin-top: 7rem;
+    margin-right: 12rem;
+}
+/*-------End section-1--------*/
+
+/*-------Start section-2--------*/
+.section-2 {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    overflow: hidden;
+    background-image: url("shapes/7.png");
+    object-fit: cover;
+}
+.section-2-img {
+    width: 45%;
+}
+.section-2-img img {
+    width: 50%;
+    margin-top: 20rem;
+    margin-left: 20rem;
+}
+.about-section {
+    width: 45%;
+    margin-top: 30rem;
+    margin-left: 20rem;
+}
+.section-2-heading {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.section-2-paragraph {
+    width: 70%;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+/*-------End section-2--------*/
+
+/*-------Start section-3--------*/
+.section-3 {
+    width: 100%;
+    height: 70vh;
+}
+.section-3-heading {
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.section-3-paragraph {
+    margin: 1rem 50rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.all-recipies {
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+}
+.recipi-img {
+    width: 100%;
+    height: 80%;
+}
+.recipi-1 {
+    width: 30%;
+    border: none;
+    margin-left: 3.5rem;
+    margin-right: 5rem;
+    border-radius: 3rem;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.recipi-2 {
+    width: 30%;
+    border: none;
+    margin-right: 5rem;
+    border-radius: 3rem;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.recipi-3 {
+    width: 30%;
+    border: none;
+    border-radius: 3rem;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.recipi-intro {
+    margin: 3rem 1rem;
+}
+.recipi-title {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: olivedrab;
+}
+.recipi-1 img {
+    height: 40rem;
+}
+.recipi-2 img {
+    height: 40rem;
+}
+.recipi-3 img {
+    height: 40rem;
+}
+.recipi-paragraph {
+    font-size: 1.6rem;
+}
+/*-------End section-3--------*/
+
+/*-------Start section-4--------*/
+
+.section-4 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 60rem;
+}
+.section-4-heading {
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.the-cook {
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+}
+.cook-img {
+    width: 100%;
+    height: 80%;
+}
+.cook-1 {
+    width: 30%;
+    border: none;
+    margin-left: 3.5rem;
+    margin-right: 5rem;
+    border-radius: 3rem;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cook-2 {
+    width: 30%;
+    border: none;
+    margin-right: 5rem;
+    border-radius: 3rem;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cook-3 {
+    width: 30%;
+    border: none;
+    border-radius: 3rem;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cook-intro {
+    margin: 3rem 1rem;
+}
+.cook-title {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: olivedrab;
+}
+.cook-1 img {
+    height: 40rem;
+}
+.cook-2 img {
+    height: 40rem;
+}
+.cook-3 img {
+    height: 40rem;
+}
+.cook-paragraph {
+    font-size: 1.6rem;
+}
+/*-------End section-4--------*/
+
+/*-------Start section-5--------*/
+.section-5 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(shapes/Frame\ 58.jpg);
+}
+.section-5-heading {
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.form {
+    margin-top: 10rem;
+    margin-left: 63rem;
+}
+.inputs {
+    width: 50rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+.textarea {
+    margin-top: 5rem;
+    font-size: 2rem;
+    max-width: 50rem;
+    max-height: 20rem;
+}
+.form-btn {
+    width: 50rem;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+/*-------End section-5--------*/
+
+/*-------start footer section--------*/
+.footer-section {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+.footer-heading {
+    font-size: 5rem;
+    margin-top: 8rem;
+}
+.footer-span {
+    color: orange;
+    margin-right: 1rem;
+}
+.footer-paragraph {
+    font-size: 1.6rem;
+}
+/*-------End footer section---------*/
